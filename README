@@ -1,0 +1,4 @@
+This a Arduino sketch (code) that reads a string in the main loop from the
+serial connection and if the string has this format "<angle>;" (without the
+quotation marks) a command is sent to the connected servo to rotate to the
+given angle (in degrees).
