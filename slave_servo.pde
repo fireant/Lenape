@@ -39,7 +39,6 @@ bool processIntString(int& val)
     val += readVal - '0';
     return false;
   } else if (readVal == ';') {
-    Serial.flush();
     return true;
   }
 }
